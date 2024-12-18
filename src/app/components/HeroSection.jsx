@@ -38,14 +38,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className=" rounded-full bg-[#8443C4] w-[300px] h-[300px]  lg:w-[400px] lg:h-[400px] relative">
+          <div className="  w-[300px] h-[300px]  lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/ai-2re.png"
+              src="/images/ai-new.png"
               alt="hero image"
-              className=" absolute object-center transform -translate-x-1/2 
+              className=" absolute pl-4 transform -translate-x-1/2 
                -translate-y-1/2 top-1/2 left-1/2"
-              width={210}
-              height={210}
+              width={300}
+              height={300}
             />
           </div>
         </motion.div>
