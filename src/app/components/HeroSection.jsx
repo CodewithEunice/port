@@ -21,7 +21,7 @@ const HeroSection = () => {
             </span>
             <br></br>
             <TypeAnimation
-              sequence={["Eunice", 1000, " Web Developer", 1000]}
+              sequence={["Eunice", 1000, "a Web Developer", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -38,14 +38,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="w-[300px] h-[300px]  lg:w-[400px] lg:h-[400px] relative">
+          <div className=" rounded-full bg-[#8443C4] w-[300px] h-[300px]  lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/ai-2re.png"
               alt="hero image"
-              className=" absolute hidden md:flex transform -translate-x-1/2 
+              className=" absolute object-center transform -translate-x-1/2 
                -translate-y-1/2 top-1/2 left-1/2"
-              width={400}
-              height={400}
+              width={210}
+              height={210}
             />
           </div>
         </motion.div>
