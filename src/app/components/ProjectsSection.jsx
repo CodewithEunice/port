@@ -45,9 +45,17 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "https://new-calc-project.vercel.app/",
   },
-
   {
     id: 5,
+    title: "Weather-App",
+    description: "This is a Weather App.",
+    image: "/images/projects/weather-img.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://weather-kappa-blush.vercel.app/",
+  },
+  {
+    id: 6,
     title: "Aenon-fitness",
     description: "This is a fitness app that helps  register for gym classes.",
     image: "/images/projects/aenon.png",
